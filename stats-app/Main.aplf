@@ -1,0 +1,13 @@
+ Main;data;fn;n;result
+⍝ Compute Stats until input is empty.
+
+ InitCache
+
+ :Repeat
+     ⎕←'Enter some numbers:'
+     :If 0≠n←↑⍴data←,⎕
+         ⎕←ComputeStats data
+     :EndIf
+ :Until 0=n
+
+ ⎕←'Have a nice day!'

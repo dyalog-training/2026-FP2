@@ -1,0 +1,26 @@
+{
+  "PRODUCT": "Stats",
+  "LX": "Main",
+  "GITPATH": "c:\\devt\\",
+  "WS": "c:\\tmp\\stats.dws",
+  "folders": [
+    { "name": "stats-app", "ns": "#",       "path": "2026-FP2/stats-app",      "flatten": 0, "link": 1 },
+    { "name": "statfns",   "ns": "statfns", "path": "2022-SA3/export/statfns", "flatten": 0, "link": 0 }
+  ],
+  "exe": {
+    "filename": "C:\\tmp\\Stats.exe",
+    "type": "StandaloneNativeExe",
+    "runtime": 0,
+    "resource": "",
+    "icon": "Stats.ico",
+    "cmdline": "Stats.exe MAXWS=20M",
+    "buildcopy": "2026-FP2/stats-app/installer/Stats/Stats.exe",
+    "details": {
+      "Comments": "Stats sample for Dyalog APL",
+      "CompanyName": "Dyalog Ltd.",
+      "FileDescription": "Stats sample executable for Dyalog APL",
+      "LegalCopyright": "Copyright Dyalog Ltd.",
+      "ProductName": "Stats"
+    }
+  }
+}

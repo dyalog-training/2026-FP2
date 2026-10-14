@@ -1,0 +1,4 @@
+InitCache
+:If 0=⎕NC 'RESULTS'
+   RESULTS←⍬ (0 2⍴0)
+:EndIf

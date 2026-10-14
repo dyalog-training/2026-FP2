@@ -1,0 +1,1 @@
+dyalog.exe DEV=Y LOAD=C:\tmp\stats.dws

@@ -1,0 +1,15 @@
+ r←ComputeStats data;⎕CT;fn;keys;results;i
+ ⎕CT←0 ⍝ for key lookup
+
+ (keys results)←RESULTS
+ :If (≢keys)≥i←keys⍳⊂data ⍝ Cache Hit
+     r←i⊃results
+     ⎕←'   (cached)'
+ :Else
+     r←0 2⍴0
+     :For fn :In STATFNS
+         r⍪←fn((statfns⍎fn) data)
+     :EndFor
+     ⎕←'   (computed)'
+     RESULTS←(keys,⊂data)(results,⊂r)
+ :EndIf
