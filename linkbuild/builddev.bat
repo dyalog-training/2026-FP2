@@ -1,1 +1,1 @@
-pushd ..\.. && dyalog.exe LOAD="linkbuildboot.aplf" BUILD_CONFIG="Tests\stats" "DEV=Y" && popd 
+dyalog.exe LOAD="linkbuildboot.aplf" "DEV=Y"

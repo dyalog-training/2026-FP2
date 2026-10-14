@@ -1,0 +1,3 @@
+ linkbuildboot
+ ⎕SE.Link.Create 'linkbuild' 'c:\devt\link-build\APLSource'
+ linkbuild.Build
